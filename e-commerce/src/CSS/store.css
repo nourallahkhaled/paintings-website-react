@@ -1,0 +1,157 @@
+.card {
+    position: relative;
+}
+
+.prod-card:hover {
+    height: 660px !important;
+}
+
+.card-cat {
+    display: none !important;
+}
+
+.card .icon-container a {
+    display: inline-block;
+    visibility: hidden;
+    align-items: center;
+
+}
+
+.card:hover .icon-container a {
+    display: inline-block;
+    visibility: visible;
+    font-size: 10px;
+
+}
+
+.card .h {
+    visibility: hidden;
+
+}
+
+.card:hover .h {
+    visibility: visible;
+}
+
+.card .button1 {
+    visibility: hidden;
+
+}
+
+.card:hover .button1 {
+    visibility: visible;
+}
+
+
+.card .icon-container div {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5px;
+    margin-left: -20%;
+    background-color: white;
+}
+
+.icon-container div {
+    margin-left: 10px;
+}
+
+.card .icon-container i {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.card-img-top {
+    height: 265px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.card:hover .cimg {
+    opacity: 0.7;
+
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: -0.6rem;
+    color: #E57C23 !important;
+}
+
+
+
+.card-text1 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #85A389 !important;
+}
+
+.card-text2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #E57C23;
+}
+
+
+.search-input {
+    width: 30%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 1rem;
+    outline: none;
+    margin-left: 35%;
+
+}
+
+/* Style for the search input when focused */
+.search-input:focus {
+    border-bottom-color: black;
+}
+
+/* ////////////////////////////// */
+.card2 {
+    margin-top: 5%;
+    margin-left: 10%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.button1 {
+    background-color: #E57C23;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.button1:hover {
+    background-color: #000;
+
+}
+
+.search-cat-container {
+    margin-left: 1100px !important;
+}
+
+.search-cat-container button {
+    background-color: #85A389;
+    width: 100px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    height: 40px;
+    color: wheat;
+}
+
+.search-cat-container select {
+    width: 200px;
+    padding: 5px;
+    margin-right: 5px;
+}

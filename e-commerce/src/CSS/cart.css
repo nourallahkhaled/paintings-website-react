@@ -1,0 +1,152 @@
+:root {
+    --first-color: #FFFBE9;
+    --second-color: #E57C23;
+    --third-color: #F4EAD5;
+    --fourth-color: #85A389;
+    --fifth-color: #A4907C;
+}
+
+.cart-heading {
+    font-size: 50px;
+    color: #A4907C;
+}
+
+/* .cart-body{
+    background-color: #FFFBE9;
+    height: 100vh;
+} */
+.cart-empty {
+    color: #E57C23;
+    font-size: 25px;
+}
+
+.table {
+    margin-top: 25px !important;
+}
+
+.table-head {
+    color: #E57C23 !important;
+    font-size: 18px;
+}
+
+.quantity {
+    color: #A4907C !important;
+    font-weight: bold !important;
+}
+
+.cartquantity {
+    background-color: #A4907C !important;
+    margin: 10px !important;
+    padding: 8px !important;
+    color: #FFFBE9 !important;
+}
+
+.pname {
+    color: #A4907C !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.price {
+    color: #A4907C !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+.trash {
+    color: #E57C23 !important;
+}
+
+.checkout-btn {
+    background-color: #E57C23 !important;
+    color: #FFFBE9 !important;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.quantity-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartquantity {
+    margin: 0 5px;
+}
+
+.button-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .table-head,
+    .pname,
+    .price {
+        text-align: center;
+    }
+
+
+    .table tr {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        border: none;
+    }
+
+    .table td {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .table td:first-child {
+        flex-basis: 50%;
+    }
+
+    .table td:nth-child(2) {
+        flex-basis: 30%;
+    }
+
+    .table td:last-child {
+        flex-basis: 20%;
+    }
+
+    .button-cell {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .button-cell .button-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .button-cell .button-container button {
+        width: 100%;
+    }
+}

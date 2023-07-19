@@ -1,0 +1,33 @@
+.register-card1 {
+    min-height: 700px;
+    left: 0;
+    right: 0;
+    padding-left: 0px;
+    max-width: 600px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .register-card1 {
+        left: 70px;
+        padding-left: 50px;
+    }
+}
+
+.register-card {
+    min-height: 650px;
+    top: 30px;
+    left: 70px;
+
+    max-width: 600px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+
+}
+
+.register-card-body {
+    max-width: 381px;
+}

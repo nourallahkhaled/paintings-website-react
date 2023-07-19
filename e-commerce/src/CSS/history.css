@@ -1,0 +1,49 @@
+.title {
+    text-align: center !important;
+    color: #E57C23 !important;
+
+}
+
+.one {
+    width: 100% !important;
+    background: url('https://img.freepik.com/free-photo/shadow-leaves-design-element_53876-94382.jpg?w=996&t=st=1688599186~exp=1688599786~hmac=a83018254f60286dff412302610c7c24d167ae014752322c13b873306c02e43e')
+}
+
+.lbox {
+    background-color: none !important;
+    background: url('https://img.freepik.com/free-photo/shadow-leaves-design-element_53876-94382.jpg?w=996&t=st=1688599186~exp=1688599786~hmac=a83018254f60286dff412302610c7c24d167ae014752322c13b873306c02e43e')
+}
+
+.sbox {
+    border: 1px solid black !important;
+    border-top-right-radius: 30px !important;
+    transition: transform 0.3s ease !important;
+    /* background-color: antiq !important; */
+}
+
+.sbox:hover {
+    transform: scale(1.1) !important;
+}
+
+.title2 {
+    text-align: center;
+    color: #E57C23 !important;
+    font-size: 30px !important;
+    text-decoration: underline;
+}
+
+.detail {
+    color: rgba(99, 83, 54, 0.932) !important;
+    font-size: 20px;
+}
+
+.title3 {
+    text-align: center;
+    color: #E57C23 !important;
+    /* font-size: 30px!important; */
+    text-decoration: underline;
+}
+
+.innerbox {
+    border: 2px solid wheat !important;
+}
